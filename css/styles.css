@@ -9,19 +9,14 @@
     --h1-fontsize-deskop: 6rem;
     --h2-fontsize-desktop: 3rem;
     --h3-fontsize-desktop: 1.5rem;
+    --paragraph-fontsize-desktop: 2.5rem;
     --bs-body-bg: transparent;
 }
-
-/* General Reset */
-/* body, h1, p {
-    margin: 0;
-    padding: 0;
-} */
 
 body {
     font-family: 'dynapuff','Crimson Text', 'Roboto Flex', 'Roboto', sans-serif;
     color: var(--dark-color);
-    background-color: var(--primary-color);
+    background-color: white;
 }
 
 .container {
@@ -49,10 +44,6 @@ body {
 img {
     height: auto;
   }
-
-.logo img {
-    /* margin-right: 10px; */
-}
 
 .nav a {
     margin: 0 10px;
@@ -101,7 +92,7 @@ input.form-control.input-text::placeholder {
     display: block;
     max-width: 2100px;
     margin: 0 auto;
-    position: absolute;
+    /* position: absolute; */
     z-index: 2;
     top: 150px;
     left: 90px;
@@ -114,6 +105,20 @@ input.form-control.input-text::placeholder {
 .img-heading {
     font-size: 7rem;
     color: red;
+    z-index: 3;
+}
+
+.section-container {
+    margin-top: 600px;
+}
+
+a.btn {
+    z-index: 4;
+}
+
+.hero-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--paragraph-fontsize-desktop);
 }
 
 
