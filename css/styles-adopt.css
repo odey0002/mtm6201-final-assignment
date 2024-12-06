@@ -13,7 +13,8 @@
 
 body {
     font-family: 'dynapuff','Crimson Text', 'Roboto Flex', 'Roboto', sans-serif;
-    color: var(--dark-color); 
+    color: var(--dark-color);
+    background-color: white; 
 }
 
 h1 {
@@ -21,14 +22,54 @@ h1 {
     font-family: 'dynapuff', serif;
 }
 
-nav {
+.navbar {
+    background: linear-gradient(20deg, var(--neutral-color), var(--primary-color));
+    height: 150px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav {
     background: linear-gradient(90deg, var(--neutral-color), var(--primary-color));
     font-size: var(--h3-fontsize-desktop);
     font-family: 'Crimson Text', serif;
     box-sizing: border-box;
     position: relative;
-}
+} */
 
+/* 
 a.nav-link {
     color: var(--dark-color);
 }
@@ -59,7 +100,7 @@ a.nav-link {
     --bs-btn-disabled-color: #ffc107;
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #ffc107;
-}
+} */
 
 
 
