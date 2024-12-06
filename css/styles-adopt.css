@@ -1,0 +1,192 @@
+:root {
+    --primary-color: #F7F4EF;
+    --accent-color: #E8B923;
+    --hover-color: #D1A11C;
+    --dark-color: #262322;
+    --secondary-color: #91B6B2;
+    --hover-color-secondary: #49807C;
+    --neutral-color: #B8A799;
+    --h1-fontsize-deskop: 6rem;
+    --h2-fontsize-desktop: 3rem;
+    --h3-fontsize-desktop: 1.5rem;
+}    
+
+body {
+    font-family: 'dynapuff','Crimson Text', 'Roboto Flex', 'Roboto', sans-serif;
+    color: var(--dark-color); 
+}
+
+h1 {
+    font-size: var(--h1-fontsize-deskop);
+    font-family: 'dynapuff', serif;
+}
+
+nav {
+    background: linear-gradient(90deg, var(--neutral-color), var(--primary-color));
+    font-size: var(--h3-fontsize-desktop);
+    font-family: 'Crimson Text', serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+a.nav-link {
+    color: var(--dark-color);
+}
+
+.container {
+    max-width: 1800px;
+    height: 500px;
+}
+
+.input-text:focus{
+    box-shadow: 0px 0px 0px;
+    border-color: var(--dark-color);
+}
+
+.form-control {
+    border: 3px solid #B8A799;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: var(--dark-color);
+    --bs-btn-hover-color: var(--dark-color) ;
+    --bs-btn-hover-bg: #F7F4EF;
+    --bs-btn-hover-border-color: var(--dark-color);
+    border: 3px solid #B8A799;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ffc107;
+    --bs-btn-active-border-color: var(--dark-color);
+    --bs-btn-disabled-color: #ffc107;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    max-width: 1200px;
+}
+
+/* General body styling */
+
+/* body {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    font-family: 'Dynapuff', 'Crimson Text', 'Roboto Flex', 'Roboto', sans-serif;
+    line-height: 1.6;
+} */
+
+/* Header Styling */
+/* header {
+    border-bottom: 1px solid var(--neutral-color);
+} */
+
+/* header .nav-link {
+    font-weight: 500;
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+    color: var(--accent-color);
+}
+
+form .btn-outline-dark {
+    border-color: var(--dark-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form .btn-outline-dark:hover {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+} */
+
+/* Hero Section */
+/* .hero-section h2 {
+    font-size: 3rem;
+    color: var(--dark-color);
+}
+
+.hero-section h3 {
+    font-size: 1.75rem;
+    color: var(--accent-color);
+} */
+
+/* Cards Styling */
+/* .card {
+    border: 1px solid var(--neutral-color);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.card-img-top {
+    border-bottom: 2px solid var(--neutral-color);
+} */
+
+/* Footer Styling */
+/* footer {
+    background-color: var(--background-light);
+    color: var(--dark-color);
+    border-top: 1px solid var(--neutral-color);
+    font-size: 0.9rem;
+}
+
+footer ul.list-inline a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul.list-inline a:hover {
+    color: var(--accent-color);
+}
+
+footer .d-flex a {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+footer .d-flex a:hover {
+    color: var(--accent-color);
+} */
+
+/* Utility Classes */
+/* .text-dark:hover {
+    color: var(--accent-color);
+}  */
